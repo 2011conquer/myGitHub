@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22149D5D191CDAAF0071EF6A /* MusicViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 222CFA461919F1C300FDE281 /* MusicViewController.xib */; };
+		2228565B191CAC0600351C56 /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 2228565A191CAC0600351C56 /* menu.png */; };
+		2228565D191CB42400351C56 /* 寂寞之声.lrc in Resources */ = {isa = PBXBuildFile; fileRef = 2228565C191CB42400351C56 /* 寂寞之声.lrc */; };
+		222CFA2C1919F1C300FDE281 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 222CFA2B1919F1C300FDE281 /* UIKit.framework */; };
+		222CFA2E1919F1C300FDE281 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 222CFA2D1919F1C300FDE281 /* Foundation.framework */; };
+		222CFA301919F1C300FDE281 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 222CFA2F1919F1C300FDE281 /* CoreGraphics.framework */; };
+		222CFA361919F1C300FDE281 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 222CFA341919F1C300FDE281 /* InfoPlist.strings */; };
+		222CFA381919F1C300FDE281 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 222CFA371919F1C300FDE281 /* main.m */; };
+		222CFA3C1919F1C300FDE281 /* MusicAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 222CFA3B1919F1C300FDE281 /* MusicAppDelegate.m */; };
+		222CFA3E1919F1C300FDE281 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 222CFA3D1919F1C300FDE281 /* Default.png */; };
+		222CFA401919F1C300FDE281 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 222CFA3F1919F1C300FDE281 /* Default@2x.png */; };
+		222CFA421919F1C300FDE281 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 222CFA411919F1C300FDE281 /* Default-568h@2x.png */; };
+		222CFA451919F1C300FDE281 /* MusicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 222CFA441919F1C300FDE281 /* MusicViewController.m */; };
+		22308F35191B98E30079AF55 /* 故乡的原风景.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 22308F34191B98E30079AF55 /* 故乡的原风景.mp3 */; };
+		22308F37191B98F90079AF55 /* nextsong.png in Resources */ = {isa = PBXBuildFile; fileRef = 22308F36191B98F90079AF55 /* nextsong.png */; };
+		22308F3C191B990E0079AF55 /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = 22308F38191B990E0079AF55 /* pause.png */; };
+		22308F3D191B990E0079AF55 /* presong.png in Resources */ = {isa = PBXBuildFile; fileRef = 22308F39191B990E0079AF55 /* presong.png */; };
+		22308F3E191B990E0079AF55 /* voiceOff.png in Resources */ = {isa = PBXBuildFile; fileRef = 22308F3A191B990E0079AF55 /* voiceOff.png */; };
+		22308F3F191B990E0079AF55 /* voiceOn.png in Resources */ = {isa = PBXBuildFile; fileRef = 22308F3B191B990E0079AF55 /* voiceOn.png */; };
+		224A327A191B7E21007870FA /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 224A3279191B7E21007870FA /* AVFoundation.framework */; };
+		224A327D191B7FE5007870FA /* Music.m in Sources */ = {isa = PBXBuildFile; fileRef = 224A327C191B7FE5007870FA /* Music.m */; };
+		226AB8DE191B9D520035680C /*  Tomorrow.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 226AB8DD191B9D520035680C /*  Tomorrow.mp3 */; };
+		226AB8E2191B9D5B0035680C /* 故乡的原风景.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 226AB8DF191B9D5B0035680C /* 故乡的原风景.mp3 */; };
+		226AB8E3191B9D5B0035680C /* 寂寞之声.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 226AB8E0191B9D5B0035680C /* 寂寞之声.mp3 */; };
+		226AB8E4191B9D5B0035680C /* Whataya Want From Me.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 226AB8E1191B9D5B0035680C /* Whataya Want From Me.mp3 */; };
+		226AB8EA191B9DF20035680C /* Icon2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 226AB8E9191B9DF20035680C /* Icon2x.png */; };
+		226AB8EC191B9DF50035680C /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 226AB8EB191B9DF50035680C /* Icon.png */; };
+		226AB8EF191BA7E60035680C /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 226AB8EE191BA7E60035680C /* background.png */; };
+		22F0DC54191B8F27001CD3FC /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = 22F0DC53191B8F27001CD3FC /* play.png */; };
+		22F0DC56191B8FE0001CD3FC /* stop.png in Resources */ = {isa = PBXBuildFile; fileRef = 22F0DC55191B8FE0001CD3FC /* stop.png */; };
+		F18C64AB191E2BE200D6EEF1 /* Tomorrow.lrc in Resources */ = {isa = PBXBuildFile; fileRef = F18C64AA191E2BE200D6EEF1 /* Tomorrow.lrc */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2228565A191CAC0600351C56 /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu.png; sourceTree = "<group>"; };
+		2228565C191CB42400351C56 /* 寂寞之声.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "寂寞之声.lrc"; sourceTree = "<group>"; };
+		222CFA281919F1C300FDE281 /* MusicPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		222CFA2B1919F1C300FDE281 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		222CFA2D1919F1C300FDE281 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		222CFA2F1919F1C300FDE281 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		222CFA331919F1C300FDE281 /* MusicPlayer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MusicPlayer-Info.plist"; sourceTree = "<group>"; };
+		222CFA351919F1C300FDE281 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		222CFA371919F1C300FDE281 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		222CFA391919F1C300FDE281 /* MusicPlayer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MusicPlayer-Prefix.pch"; sourceTree = "<group>"; };
+		222CFA3A1919F1C300FDE281 /* MusicAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MusicAppDelegate.h; sourceTree = "<group>"; };
+		222CFA3B1919F1C300FDE281 /* MusicAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MusicAppDelegate.m; sourceTree = "<group>"; };
+		222CFA3D1919F1C300FDE281 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		222CFA3F1919F1C300FDE281 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		222CFA411919F1C300FDE281 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		222CFA431919F1C300FDE281 /* MusicViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MusicViewController.h; sourceTree = "<group>"; };
+		222CFA441919F1C300FDE281 /* MusicViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MusicViewController.m; sourceTree = "<group>"; };
+		222CFA471919F1C300FDE281 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MusicViewController.xib; sourceTree = "<group>"; };
+		22308F34191B98E30079AF55 /* 故乡的原风景.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "故乡的原风景.mp3"; sourceTree = "<group>"; };
+		22308F36191B98F90079AF55 /* nextsong.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nextsong.png; sourceTree = "<group>"; };
+		22308F38191B990E0079AF55 /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause.png; sourceTree = "<group>"; };
+		22308F39191B990E0079AF55 /* presong.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = presong.png; sourceTree = "<group>"; };
+		22308F3A191B990E0079AF55 /* voiceOff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = voiceOff.png; sourceTree = "<group>"; };
+		22308F3B191B990E0079AF55 /* voiceOn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = voiceOn.png; sourceTree = "<group>"; };
+		224A3279191B7E21007870FA /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		224A327B191B7FE5007870FA /* Music.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Music.h; sourceTree = "<group>"; };
+		224A327C191B7FE5007870FA /* Music.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Music.m; sourceTree = "<group>"; };
+		226AB8DD191B9D520035680C /*  Tomorrow.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = " Tomorrow.mp3"; sourceTree = "<group>"; };
+		226AB8DF191B9D5B0035680C /* 故乡的原风景.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "故乡的原风景.mp3"; sourceTree = "<group>"; };
+		226AB8E0191B9D5B0035680C /* 寂寞之声.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "寂寞之声.mp3"; sourceTree = "<group>"; };
+		226AB8E1191B9D5B0035680C /* Whataya Want From Me.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Whataya Want From Me.mp3"; sourceTree = "<group>"; };
+		226AB8E9191B9DF20035680C /* Icon2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon2x.png; path = ../Icon2x.png; sourceTree = "<group>"; };
+		226AB8EB191B9DF50035680C /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = ../Icon.png; sourceTree = "<group>"; };
+		226AB8EE191BA7E60035680C /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		22F0DC53191B8F27001CD3FC /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
+		22F0DC55191B8FE0001CD3FC /* stop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stop.png; sourceTree = "<group>"; };
+		F18C64AA191E2BE200D6EEF1 /* Tomorrow.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Tomorrow.lrc; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		222CFA251919F1C300FDE281 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				224A327A191B7E21007870FA /* AVFoundation.framework in Frameworks */,
+				222CFA2C1919F1C300FDE281 /* UIKit.framework in Frameworks */,
+				222CFA2E1919F1C300FDE281 /* Foundation.framework in Frameworks */,
+				222CFA301919F1C300FDE281 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		222CFA1F1919F1C300FDE281 = {
+			isa = PBXGroup;
+			children = (
+				224A3279191B7E21007870FA /* AVFoundation.framework */,
+				222CFA311919F1C300FDE281 /* MusicPlayer */,
+				222CFA2A1919F1C300FDE281 /* Frameworks */,
+				222CFA291919F1C300FDE281 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		222CFA291919F1C300FDE281 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				222CFA281919F1C300FDE281 /* MusicPlayer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		222CFA2A1919F1C300FDE281 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				222CFA2B1919F1C300FDE281 /* UIKit.framework */,
+				222CFA2D1919F1C300FDE281 /* Foundation.framework */,
+				222CFA2F1919F1C300FDE281 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		222CFA311919F1C300FDE281 /* MusicPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				222CFA4E1919F36B00FDE281 /* 素材 */,
+				222CFA3A1919F1C300FDE281 /* MusicAppDelegate.h */,
+				222CFA3B1919F1C300FDE281 /* MusicAppDelegate.m */,
+				222CFA431919F1C300FDE281 /* MusicViewController.h */,
+				222CFA441919F1C300FDE281 /* MusicViewController.m */,
+				222CFA461919F1C300FDE281 /* MusicViewController.xib */,
+				222CFA321919F1C300FDE281 /* Supporting Files */,
+				224A327B191B7FE5007870FA /* Music.h */,
+				224A327C191B7FE5007870FA /* Music.m */,
+			);
+			path = MusicPlayer;
+			sourceTree = "<group>";
+		};
+		222CFA321919F1C300FDE281 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				222CFA331919F1C300FDE281 /* MusicPlayer-Info.plist */,
+				222CFA341919F1C300FDE281 /* InfoPlist.strings */,
+				222CFA371919F1C300FDE281 /* main.m */,
+				222CFA391919F1C300FDE281 /* MusicPlayer-Prefix.pch */,
+				222CFA3D1919F1C300FDE281 /* Default.png */,
+				222CFA3F1919F1C300FDE281 /* Default@2x.png */,
+				222CFA411919F1C300FDE281 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		222CFA4E1919F36B00FDE281 /* 素材 */ = {
+			isa = PBXGroup;
+			children = (
+				226AB8ED191B9E3F0035680C /* image */,
+				22DBB67F191A3A32003AEF1B /* songs */,
+			);
+			name = "素材";
+			sourceTree = "<group>";
+		};
+		226AB8ED191B9E3F0035680C /* image */ = {
+			isa = PBXGroup;
+			children = (
+				2228565A191CAC0600351C56 /* menu.png */,
+				226AB8EB191B9DF50035680C /* Icon.png */,
+				226AB8E9191B9DF20035680C /* Icon2x.png */,
+				22F0DC53191B8F27001CD3FC /* play.png */,
+				226AB8EE191BA7E60035680C /* background.png */,
+				22308F38191B990E0079AF55 /* pause.png */,
+				22308F39191B990E0079AF55 /* presong.png */,
+				22308F3A191B990E0079AF55 /* voiceOff.png */,
+				22308F3B191B990E0079AF55 /* voiceOn.png */,
+				22F0DC55191B8FE0001CD3FC /* stop.png */,
+				22308F36191B98F90079AF55 /* nextsong.png */,
+			);
+			name = image;
+			sourceTree = "<group>";
+		};
+		22DBB67F191A3A32003AEF1B /* songs */ = {
+			isa = PBXGroup;
+			children = (
+				226AB8DF191B9D5B0035680C /* 故乡的原风景.mp3 */,
+				226AB8E0191B9D5B0035680C /* 寂寞之声.mp3 */,
+				2228565C191CB42400351C56 /* 寂寞之声.lrc */,
+				226AB8E1191B9D5B0035680C /* Whataya Want From Me.mp3 */,
+				226AB8DD191B9D520035680C /*  Tomorrow.mp3 */,
+				F18C64AA191E2BE200D6EEF1 /* Tomorrow.lrc */,
+				22308F34191B98E30079AF55 /* 故乡的原风景.mp3 */,
+			);
+			name = songs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		222CFA271919F1C300FDE281 /* MusicPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 222CFA4B1919F1C300FDE281 /* Build configuration list for PBXNativeTarget "MusicPlayer" */;
+			buildPhases = (
+				222CFA241919F1C300FDE281 /* Sources */,
+				222CFA251919F1C300FDE281 /* Frameworks */,
+				222CFA261919F1C300FDE281 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MusicPlayer;
+			productName = MusicPlayer;
+			productReference = 222CFA281919F1C300FDE281 /* MusicPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		222CFA201919F1C300FDE281 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Music;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = ZhangGruorui;
+			};
+			buildConfigurationList = 222CFA231919F1C300FDE281 /* Build configuration list for PBXProject "MusicPlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 222CFA1F1919F1C300FDE281;
+			productRefGroup = 222CFA291919F1C300FDE281 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				222CFA271919F1C300FDE281 /* MusicPlayer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		222CFA261919F1C300FDE281 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				222CFA361919F1C300FDE281 /* InfoPlist.strings in Resources */,
+				222CFA3E1919F1C300FDE281 /* Default.png in Resources */,
+				222CFA401919F1C300FDE281 /* Default@2x.png in Resources */,
+				222CFA421919F1C300FDE281 /* Default-568h@2x.png in Resources */,
+				22F0DC54191B8F27001CD3FC /* play.png in Resources */,
+				22F0DC56191B8FE0001CD3FC /* stop.png in Resources */,
+				22308F35191B98E30079AF55 /* 故乡的原风景.mp3 in Resources */,
+				22308F37191B98F90079AF55 /* nextsong.png in Resources */,
+				22308F3C191B990E0079AF55 /* pause.png in Resources */,
+				22308F3D191B990E0079AF55 /* presong.png in Resources */,
+				22308F3E191B990E0079AF55 /* voiceOff.png in Resources */,
+				22308F3F191B990E0079AF55 /* voiceOn.png in Resources */,
+				226AB8DE191B9D520035680C /*  Tomorrow.mp3 in Resources */,
+				226AB8E2191B9D5B0035680C /* 故乡的原风景.mp3 in Resources */,
+				226AB8E3191B9D5B0035680C /* 寂寞之声.mp3 in Resources */,
+				226AB8E4191B9D5B0035680C /* Whataya Want From Me.mp3 in Resources */,
+				226AB8EA191B9DF20035680C /* Icon2x.png in Resources */,
+				226AB8EC191B9DF50035680C /* Icon.png in Resources */,
+				226AB8EF191BA7E60035680C /* background.png in Resources */,
+				2228565B191CAC0600351C56 /* menu.png in Resources */,
+				2228565D191CB42400351C56 /* 寂寞之声.lrc in Resources */,
+				22149D5D191CDAAF0071EF6A /* MusicViewController.xib in Resources */,
+				F18C64AB191E2BE200D6EEF1 /* Tomorrow.lrc in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		222CFA241919F1C300FDE281 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				222CFA381919F1C300FDE281 /* main.m in Sources */,
+				222CFA3C1919F1C300FDE281 /* MusicAppDelegate.m in Sources */,
+				222CFA451919F1C300FDE281 /* MusicViewController.m in Sources */,
+				224A327D191B7FE5007870FA /* Music.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		222CFA341919F1C300FDE281 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				222CFA351919F1C300FDE281 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		222CFA461919F1C300FDE281 /* MusicViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				222CFA471919F1C300FDE281 /* en */,
+			);
+			name = MusicViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		222CFA491919F1C300FDE281 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		222CFA4A1919F1C300FDE281 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		222CFA4C1919F1C300FDE281 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MusicPlayer/MusicPlayer-Prefix.pch";
+				INFOPLIST_FILE = "MusicPlayer/MusicPlayer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		222CFA4D1919F1C300FDE281 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MusicPlayer/MusicPlayer-Prefix.pch";
+				INFOPLIST_FILE = "MusicPlayer/MusicPlayer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		222CFA231919F1C300FDE281 /* Build configuration list for PBXProject "MusicPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				222CFA491919F1C300FDE281 /* Debug */,
+				222CFA4A1919F1C300FDE281 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		222CFA4B1919F1C300FDE281 /* Build configuration list for PBXNativeTarget "MusicPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				222CFA4C1919F1C300FDE281 /* Debug */,
+				222CFA4D1919F1C300FDE281 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 222CFA201919F1C300FDE281 /* Project object */;
+}
